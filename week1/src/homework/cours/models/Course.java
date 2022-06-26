@@ -2,7 +2,6 @@ package homework.cours.models;
 
 import java.util.Objects;
 import java.util.List;
-private Instructor instructor;
 
 
 public class Course {
@@ -11,7 +10,7 @@ public class Course {
     private double creditScore;
 
     private List <Student> studentList;
-    private Instructor instructor;
+    private Instroctur instructor;
 
     public Course(String corseName, String coursCode, double creditScore) {
         this.corseName = corseName;
