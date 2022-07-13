@@ -13,7 +13,6 @@ public class Main {
     public static void main(String[] args) {
 
         saveData();
-
     }
     public static void saveData(){
         EntityManager em = HibernateUtil.getEntityManager("mysqlZE");
@@ -39,7 +38,6 @@ public class Main {
         Student s4 =new Student("Emine","kız", LocalDate.of(2000,11,6),"Mersin");
         Student s5=new Student("Ali","Erkek", LocalDate.of(1999,12,3),"Adana");
 
-
         try{
             em.getTransaction().begin();
             em.persist(i1);
@@ -47,7 +45,6 @@ public class Main {
             em.persist(i3);
             em.persist(i4);
             em.persist(i5);
-
 
             em.persist(cu);
             em.persist(cu1);
@@ -72,5 +69,4 @@ public class Main {
             HibernateUtil.closeEntityManager(em);
         }
     }
-
 }

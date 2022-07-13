@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-221.5921.22">
+    <data-source name="course@localhost" uuid="07765c15-bfec-4bab-8571-b14fb7a051a2">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="popschool@localhost" uuid="308f6d90-354e-4349-9561-ed4e4df703e2">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="yonetim@localhost" uuid="6f9aa9eb-b7d6-44a1-b7df-0e89d094095e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>okulyonetim</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="okulyonetim@localhost" uuid="a69b70a2-0979-4831-a677-c4b4d4aefcdc">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>forget</secret-storage>
+      <user-name>okulyonetim</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="oopschool@localhost" uuid="353a1e71-d6d3-4e8a-bf50-9caabd2b9361">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
