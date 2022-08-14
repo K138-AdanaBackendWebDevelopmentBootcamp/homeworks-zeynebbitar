@@ -13,8 +13,8 @@ import java.util.List;
 @Inheritance(strategy = InheritanceType.JOINED)
 public class Instructor {
     @Id
-    @GeneratedValue(generator = "Instroctur",strategy= GenerationType.SEQUENCE)
- @SequenceGenerator(name = "Instroctur",sequenceName = "INSTROCTUR_SEQ_ID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+ //@SequenceGenerator(name = "Instroctur",sequenceName = "INSTROCTUR_SEQ_ID")
     private  long instructorId;
     private String name;
     private String address;

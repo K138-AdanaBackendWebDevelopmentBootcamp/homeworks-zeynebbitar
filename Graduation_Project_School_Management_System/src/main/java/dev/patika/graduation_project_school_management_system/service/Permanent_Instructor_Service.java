@@ -41,7 +41,7 @@ public class Permanent_Instructor_Service {
        repository.deleteByfixedSalary (fixedSalary);}
 
     public List<PermanentInstructor> findTop3ByFixedSalary(){
-        Iterable<PermanentInstructor> permanentInstructorIterable = repository.findTop3ByFixedSalary();
+        Iterable<PermanentInstructor> permanentInstructorIterable = repository.findTop3ByFixedSalary(1000);
         List<PermanentInstructor> topThree = new ArrayList<>();
      permanentInstructorIterable.forEach(topThree::add);
         return topThree;

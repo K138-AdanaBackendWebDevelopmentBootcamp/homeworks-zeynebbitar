@@ -16,9 +16,9 @@ import java.util.List;
 @Builder
     public class Course {
    @Id
-    @GeneratedValue(generator = "course", strategy= GenerationType.SEQUENCE)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private  long courseId;
-    private String corseName;
+    private String courseName;
     private String coursCode;
     private double creditScore;
 

@@ -37,7 +37,7 @@ public class Course_Service {
 
 
    public void findByName(String Course_name){
-        repository.findByName(Course_name);
+        repository.findByCourseName(Course_name);
    }
       public void delete (Course course) {
          repository.delete(course);
@@ -47,7 +47,7 @@ public class Course_Service {
       }
 
    public void deleteByCourseName (String courseName) {
-         repository.deleteByCorseName(courseName);}
+         repository.deleteByCourseName(courseName);}
 
 
 }

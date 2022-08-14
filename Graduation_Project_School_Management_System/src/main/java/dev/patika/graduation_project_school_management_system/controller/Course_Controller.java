@@ -12,7 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class Course_Controller {
     final Course_Service service;
-     @GetMapping (" ")
+     @GetMapping ("")
     public ResponseEntity<List<Course>> getAll_Courses(){
          return ResponseEntity.ok(service.findAll());
      }

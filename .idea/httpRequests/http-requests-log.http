@@ -6,3 +6,7 @@ GET http://localhost:8080/courses
 
 ###
 
+GET http://localhost:8080/courses
+
+###
+

@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface IVisiting_Researcher extends CrudRepository <VisitingResearcher, Long> {
     void deleteByHourlySalary(double hourly_Salary);
-    List<VisitingResearcher> findTop3ByFixedSalary ();
+    List<VisitingResearcher> findTop3ByHourlySalary (double top_salary);
 
 }

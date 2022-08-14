@@ -41,7 +41,7 @@ public class Visiting_Researcher_Service {
         repository.deleteByHourlySalary(hourlySalary);}
 
     public List<VisitingResearcher> findTop3ByFixedSalary(){
-        Iterable<VisitingResearcher> visitingResearcherIterable = repository.findTop3ByFixedSalary();
+        Iterable<VisitingResearcher> visitingResearcherIterable = repository.findTop3ByHourlySalary(2000);
         List<VisitingResearcher> topThree = new ArrayList<>();
         visitingResearcherIterable.forEach(topThree::add);
         return topThree;

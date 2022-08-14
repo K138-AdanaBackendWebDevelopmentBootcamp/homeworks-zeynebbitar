@@ -14,8 +14,9 @@ import java.util.List;
 @AllArgsConstructor
 public class Student {
     @Id
-    @GeneratedValue(generator = "Student", strategy = GenerationType.SEQUENCE)
-    @SequenceGenerator(name = "Student", sequenceName = "STUDENT_SEQ_ID")
+    //@GeneratedValue(generator = "Student", strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@SequenceGenerator(name = "Student", sequenceName = "STUDENT_SEQ_ID")
     private long StudentId;
     private String name;
     private String gender;
